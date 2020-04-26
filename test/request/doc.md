@@ -13,4 +13,4 @@
 - class: RequestConfig                          配置文件
 - class: DefaultRequestConfig                   默认配置文件
 - class: Request                                请求体
-- class: RequestQueue                           请求队列ss
+- class: RequestQueue                           请求队列

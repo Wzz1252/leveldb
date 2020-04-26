@@ -14,7 +14,6 @@
  *
  * - 全局初始化
  * RequestConfig.init(true);
- *
  */
 namespace crequest {
 

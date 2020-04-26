@@ -7,5 +7,5 @@
 
 class TLogger {
 public:
-    static void log(const std::string& tag, const std::string& message);
+    static void log(const std::string &tag, const std::string &message);
 };

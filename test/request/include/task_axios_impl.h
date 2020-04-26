@@ -17,9 +17,14 @@ namespace crequest {
     public:
         task_axios_impl() = default;
 
-        void set_request(request *r);
+        void set_request(request *r) override;
+
+        void run() override;
+
+        request *get_request() override;
+
     private:
-        request* r; //
+        request *r; //
     };
 }
 

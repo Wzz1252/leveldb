@@ -12,9 +12,14 @@
 namespace crequest {
     class task_queue {
     public:
-        virtual std::vector<task *> request_task();
+        virtual void run() = 0;
 
-        virtual void run();
+        virtual std::vector<task *> *get_request_task() = 0;
+
+        virtual void set_request_task(task *t) = 0;
+
+    protected:
+        std::vector<task *> *request_task;
     };
 }
 

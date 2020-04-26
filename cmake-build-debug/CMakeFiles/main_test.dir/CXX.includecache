@@ -86,6 +86,12 @@ vector
 
 ../test/assets/assets.h
 
+../test/request/enum/request_enum.h
+
+../test/request/include/config.h
+test/request/enum/request_enum.h
+-
+
 ../test/request/include/request.h
 iostream
 -
@@ -103,6 +109,8 @@ request.h
 ../test/request/include/request.h
 task_queue.h
 ../test/request/include/task_queue.h
+config.h
+../test/request/include/config.h
 
 ../test/request/include/task.h
 

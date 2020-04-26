@@ -2,21 +2,22 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file. See the AUTHORS file for names of contributors.
 
+# CMake 最低版本号要求
 cmake_minimum_required(VERSION 3.9)
-# Keep the version below in sync with the one in db.h
+# 使下面的版本与 db.h 中的版本保持同步
 project(leveldb VERSION 1.22.0 LANGUAGES C CXX)
 
-# C standard can be overridden when this is used as a sub-project.
+# 当将 C 标准用作子项目时，可以覆盖 C 标准
 if (NOT CMAKE_C_STANDARD)
-    # This project can use C11, but will gracefully decay down to C89.
+    # 该项目可以使用 C11，但可以正常衰减到 C89
     set(CMAKE_C_STANDARD 11)
     set(CMAKE_C_STANDARD_REQUIRED OFF)
     set(CMAKE_C_EXTENSIONS OFF)
 endif (NOT CMAKE_C_STANDARD)
 
-# C++ standard can be overridden when this is used as a sub-project.
+# 当将 C++ 标准用作子项目时，可以覆盖它
 if (NOT CMAKE_CXX_STANDARD)
-    # This project requires C++11.
+    # 该项目需要 C++ 11
     set(CMAKE_CXX_STANDARD 11)
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
     set(CMAKE_CXX_EXTENSIONS OFF)
@@ -24,14 +25,17 @@ endif (NOT CMAKE_CXX_STANDARD)
 
 if (WIN32)
     set(LEVELDB_PLATFORM_NAME LEVELDB_PLATFORM_WINDOWS)
-    # TODO(cmumford): Make UNICODE configurable for Windows.
+    # TODO(cmumford): 使 UNICODE 可配置为 Windows。
     add_definitions(-D_UNICODE -DUNICODE)
 else (WIN32)
     set(LEVELDB_PLATFORM_NAME LEVELDB_PLATFORM_POSIX)
 endif (WIN32)
 
+# 构建 LevelDB 自动化测试
 option(LEVELDB_BUILD_TESTS "Build LevelDB's unit tests" ON)
+# 构建 LevelDB 基准
 option(LEVELDB_BUILD_BENCHMARKS "Build LevelDB's benchmarks" ON)
+# 安装 LevelDB 的标头和库
 option(LEVELDB_INSTALL "Install LevelDB's header and library" ON)
 
 include(TestBigEndian)
@@ -146,7 +150,31 @@ add_library(leveldb ""
         test/android/view/root_view.cpp
         test/android/view/include/root_view.h
         test/android/include/context.h
-        test/android/context.cpp test/class/TClass.cpp test/class/TClass.h test/request/request.cpp test/request/include/request.h test/request/request_queue.cpp test/request/include/request_queue.h test/request/task_queue.cpp test/request/include/task_queue.h test/request/task.cpp test/request/include/task.h test/request/task_axios_impl.cpp test/request/include/task_axios_impl.h)
+        test/android/context.cpp
+        test/class/TClass.cpp
+        test/class/TClass.h
+        test/request/request.cpp
+        test/request/include/request.h
+        test/request/request_queue.cpp
+        test/request/include/request_queue.h
+        test/request/task_queue.cpp
+        test/request/include/task_queue.h
+        test/request/task.cpp
+        test/request/include/task.h
+        test/request/task_axios_impl.cpp
+        test/request/include/task_axios_impl.h
+        test/class/TTemplate.cpp
+        test/class/TTemplate.h
+        test/request/task_queue_serial.cpp
+        test/request/include/task_queue_serial.h
+        test/request/config.cpp
+        test/request/include/config.h
+        test/request/default_config.cpp
+        test/request/include/default_config.h
+        test/request/request_config.cpp
+        test/request/include/request_config.h
+        test/request/enum/request_enum.h
+        )
 target_sources(leveldb
         PRIVATE
         "${PROJECT_BINARY_DIR}/${LEVELDB_PORT_CONFIG_DIR}/port_config.h"

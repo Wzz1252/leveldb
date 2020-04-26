@@ -5,5 +5,4 @@
 #include "test/request/include/task_queue.h"
 
 namespace crequest {
-
 }

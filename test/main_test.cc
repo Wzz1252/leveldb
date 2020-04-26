@@ -80,14 +80,25 @@ void r_android() {
 
     android::a_app *app = rt->create_application();
 //    app->create_activity();
-    app->start_app();
+    app->start_app(); // 95017
 }
 
 void r_request() {
+    cout << "r_request start ..." << endl;
     auto queue = request_queue::create();
-    queue->add_request(new request());
 
-    request *r = request::get("");
+    queue->add_request(request::get("url"));
+    queue->add_request(request::get("url"));
+    queue->add_request(request::get("url"));
+    queue->add_request(request::get("url"));
+    queue->below_serial();
+    queue->add_request(request::get("url"));
+    queue->add_request(request::get("url"));
+    queue->add_request(request::get("url"));
+    queue->add_request(request::get("url"));
+    queue->request();
+
+    cout << "r_request end ..." << endl;
 }
 
 int main() {
@@ -120,8 +131,10 @@ int main() {
 //    delete db;
 
 //    assets_manager();
-    fund();
+//    fund();
 //    r_android();
+
+    r_request();
 
     return 1;
 }

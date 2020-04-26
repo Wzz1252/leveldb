@@ -2748,6 +2748,12 @@
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/TClass.h">
 			<Option target="leveldb"/>
 		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.cpp">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.h">
+			<Option target="leveldb"/>
+		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/main_log.cc">
 			<Option target="leveldb"/>
 		</Unit>
@@ -2764,7 +2770,25 @@
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/main_test_data.h">
 			<Option target="leveldb"/>
 		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/config.cpp">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/default_config.cpp">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/enum/request_enum.h">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/config.h">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/default_config.h">
+			<Option target="leveldb"/>
+		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/request.h">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/request_config.h">
 			<Option target="leveldb"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/request_queue.h">
@@ -2779,7 +2803,13 @@
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/task_queue.h">
 			<Option target="leveldb"/>
 		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/include/task_queue_serial.h">
+			<Option target="leveldb"/>
+		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/request.cpp">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/request_config.cpp">
 			<Option target="leveldb"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/request_queue.cpp">
@@ -2792,6 +2822,9 @@
 			<Option target="leveldb"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/task_queue.cpp">
+			<Option target="leveldb"/>
+		</Unit>
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/request/task_queue_serial.cpp">
 			<Option target="leveldb"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/src/gmock-all.cc">

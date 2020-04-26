@@ -3,7 +3,6 @@
 //
 
 #include "test/request/include/request.h"
-
 #include <utility>
 
 namespace crequest {
@@ -27,12 +26,15 @@ namespace crequest {
         return r;
     }
 
-
     void request::set_url(std::string u) {
         url = std::move(u);
     }
 
     void request::set_method(std::string m) {
         method = std::move(m);
+    }
+
+    request *request::set_tag(std::string t) {
+        return nullptr;
     }
 }
