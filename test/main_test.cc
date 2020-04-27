@@ -24,6 +24,7 @@ using namespace crequest;
 
 const string TAG = "main_test";
 
+// 我有
 void fund() {
     auto *assets = new assets::assets();
 

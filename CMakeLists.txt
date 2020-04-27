@@ -163,8 +163,8 @@ add_library(leveldb ""
         test/request/include/task.h
         test/request/task_axios_impl.cpp
         test/request/include/task_axios_impl.h
-        test/class/TTemplate.cpp
-        test/class/TTemplate.h
+        test/class/ttemplate.cpp
+        test/class/ttemplate.h
         test/request/task_queue_serial.cpp
         test/request/include/task_queue_serial.h
         test/request/config.cpp
@@ -393,6 +393,7 @@ if (LEVELDB_BUILD_TESTS)
 
     leveldb_test("test/main_test.cc")
     leveldb_test("test/class/TClass.cpp")
+    leveldb_test("test/class/ttemplate.cpp")
 
     leveldb_test("db/c_test.c")
     leveldb_test("db/fault_injection_test.cc")

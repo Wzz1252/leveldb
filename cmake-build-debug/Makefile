@@ -519,6 +519,19 @@ no_destructor_test/fast:
 .PHONY : no_destructor_test/fast
 
 #=============================================================================
+# Target rules for targets named status_test
+
+# Build rule for target.
+status_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 status_test
+.PHONY : status_test
+
+# fast build rule for target.
+status_test/fast:
+	$(MAKE) -f CMakeFiles/status_test.dir/build.make CMakeFiles/status_test.dir/build
+.PHONY : status_test/fast
+
+#=============================================================================
 # Target rules for targets named version_set_test
 
 # Build rule for target.
@@ -530,6 +543,32 @@ version_set_test: cmake_check_build_system
 version_set_test/fast:
 	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/build
 .PHONY : version_set_test/fast
+
+#=============================================================================
+# Target rules for targets named leveldb
+
+# Build rule for target.
+leveldb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leveldb
+.PHONY : leveldb
+
+# fast build rule for target.
+leveldb/fast:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/build
+.PHONY : leveldb/fast
+
+#=============================================================================
+# Target rules for targets named ttemplate
+
+# Build rule for target.
+ttemplate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ttemplate
+.PHONY : ttemplate
+
+# fast build rule for target.
+ttemplate/fast:
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/build
+.PHONY : ttemplate/fast
 
 #=============================================================================
 # Target rules for targets named issue320_test
@@ -545,19 +584,6 @@ issue320_test/fast:
 .PHONY : issue320_test/fast
 
 #=============================================================================
-# Target rules for targets named status_test
-
-# Build rule for target.
-status_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 status_test
-.PHONY : status_test
-
-# fast build rule for target.
-status_test/fast:
-	$(MAKE) -f CMakeFiles/status_test.dir/build.make CMakeFiles/status_test.dir/build
-.PHONY : status_test/fast
-
-#=============================================================================
 # Target rules for targets named fault_injection_test
 
 # Build rule for target.
@@ -569,19 +595,6 @@ fault_injection_test: cmake_check_build_system
 fault_injection_test/fast:
 	$(MAKE) -f CMakeFiles/fault_injection_test.dir/build.make CMakeFiles/fault_injection_test.dir/build
 .PHONY : fault_injection_test/fast
-
-#=============================================================================
-# Target rules for targets named main_test
-
-# Build rule for target.
-main_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_test
-.PHONY : main_test
-
-# fast build rule for target.
-main_test/fast:
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/build
-.PHONY : main_test/fast
 
 #=============================================================================
 # Target rules for targets named c_test
@@ -623,17 +636,17 @@ leveldbutil/fast:
 .PHONY : leveldbutil/fast
 
 #=============================================================================
-# Target rules for targets named leveldb
+# Target rules for targets named main_test
 
 # Build rule for target.
-leveldb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leveldb
-.PHONY : leveldb
+main_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_test
+.PHONY : main_test
 
 # fast build rule for target.
-leveldb/fast:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/build
-.PHONY : leveldb/fast
+main_test/fast:
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/build
+.PHONY : main_test/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -2310,32 +2323,35 @@ test/class/TClass.cpp.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/TClass.cpp.s
 .PHONY : test/class/TClass.cpp.s
 
-test/class/TTemplate.o: test/class/TTemplate.cpp.o
+test/class/ttemplate.o: test/class/ttemplate.cpp.o
 
-.PHONY : test/class/TTemplate.o
+.PHONY : test/class/ttemplate.o
 
 # target to build an object file
-test/class/TTemplate.cpp.o:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o
-.PHONY : test/class/TTemplate.cpp.o
+test/class/ttemplate.cpp.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/test/class/ttemplate.cpp.o
+.PHONY : test/class/ttemplate.cpp.o
 
-test/class/TTemplate.i: test/class/TTemplate.cpp.i
+test/class/ttemplate.i: test/class/ttemplate.cpp.i
 
-.PHONY : test/class/TTemplate.i
+.PHONY : test/class/ttemplate.i
 
 # target to preprocess a source file
-test/class/TTemplate.cpp.i:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.i
-.PHONY : test/class/TTemplate.cpp.i
+test/class/ttemplate.cpp.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.i
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/test/class/ttemplate.cpp.i
+.PHONY : test/class/ttemplate.cpp.i
 
-test/class/TTemplate.s: test/class/TTemplate.cpp.s
+test/class/ttemplate.s: test/class/ttemplate.cpp.s
 
-.PHONY : test/class/TTemplate.s
+.PHONY : test/class/ttemplate.s
 
 # target to generate assembly for a file
-test/class/TTemplate.cpp.s:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.s
-.PHONY : test/class/TTemplate.cpp.s
+test/class/ttemplate.cpp.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.s
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/test/class/ttemplate.cpp.s
+.PHONY : test/class/ttemplate.cpp.s
 
 test/main_log.o: test/main_log.cc.o
 
@@ -2370,8 +2386,8 @@ test/main_test.o: test/main_test.cc.o
 
 # target to build an object file
 test/main_test.cc.o:
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/test/main_test.cc.o
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/main_test.cc.o
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/test/main_test.cc.o
 .PHONY : test/main_test.cc.o
 
 test/main_test.i: test/main_test.cc.i
@@ -2380,8 +2396,8 @@ test/main_test.i: test/main_test.cc.i
 
 # target to preprocess a source file
 test/main_test.cc.i:
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/test/main_test.cc.i
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/main_test.cc.i
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/test/main_test.cc.i
 .PHONY : test/main_test.cc.i
 
 test/main_test.s: test/main_test.cc.s
@@ -2390,8 +2406,8 @@ test/main_test.s: test/main_test.cc.s
 
 # target to generate assembly for a file
 test/main_test.cc.s:
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/test/main_test.cc.s
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/test/main_test.cc.s
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/test/main_test.cc.s
 .PHONY : test/main_test.cc.s
 
 test/main_test_data.o: test/main_test_data.cc.o
@@ -3375,13 +3391,14 @@ util/testutil.cc.o:
 	$(MAKE) -f CMakeFiles/autocompact_test.dir/build.make CMakeFiles/autocompact_test.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/coding_test.dir/build.make CMakeFiles/coding_test.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/no_destructor_test.dir/build.make CMakeFiles/no_destructor_test.dir/util/testutil.cc.o
-	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/util/testutil.cc.o
-	$(MAKE) -f CMakeFiles/issue320_test.dir/build.make CMakeFiles/issue320_test.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/status_test.dir/build.make CMakeFiles/status_test.dir/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/issue320_test.dir/build.make CMakeFiles/issue320_test.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/fault_injection_test.dir/build.make CMakeFiles/fault_injection_test.dir/util/testutil.cc.o
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/crc32c_test.dir/build.make CMakeFiles/crc32c_test.dir/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/util/testutil.cc.o
 .PHONY : util/testutil.cc.o
 
 util/testutil.i: util/testutil.cc.i
@@ -3417,13 +3434,14 @@ util/testutil.cc.i:
 	$(MAKE) -f CMakeFiles/autocompact_test.dir/build.make CMakeFiles/autocompact_test.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/coding_test.dir/build.make CMakeFiles/coding_test.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/no_destructor_test.dir/build.make CMakeFiles/no_destructor_test.dir/util/testutil.cc.i
-	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/util/testutil.cc.i
-	$(MAKE) -f CMakeFiles/issue320_test.dir/build.make CMakeFiles/issue320_test.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/status_test.dir/build.make CMakeFiles/status_test.dir/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/issue320_test.dir/build.make CMakeFiles/issue320_test.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/fault_injection_test.dir/build.make CMakeFiles/fault_injection_test.dir/util/testutil.cc.i
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/crc32c_test.dir/build.make CMakeFiles/crc32c_test.dir/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/util/testutil.cc.i
 .PHONY : util/testutil.cc.i
 
 util/testutil.s: util/testutil.cc.s
@@ -3459,13 +3477,14 @@ util/testutil.cc.s:
 	$(MAKE) -f CMakeFiles/autocompact_test.dir/build.make CMakeFiles/autocompact_test.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/coding_test.dir/build.make CMakeFiles/coding_test.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/no_destructor_test.dir/build.make CMakeFiles/no_destructor_test.dir/util/testutil.cc.s
-	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/util/testutil.cc.s
-	$(MAKE) -f CMakeFiles/issue320_test.dir/build.make CMakeFiles/issue320_test.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/status_test.dir/build.make CMakeFiles/status_test.dir/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/version_set_test.dir/build.make CMakeFiles/version_set_test.dir/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/ttemplate.dir/build.make CMakeFiles/ttemplate.dir/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/issue320_test.dir/build.make CMakeFiles/issue320_test.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/fault_injection_test.dir/build.make CMakeFiles/fault_injection_test.dir/util/testutil.cc.s
-	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/crc32c_test.dir/build.make CMakeFiles/crc32c_test.dir/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/util/testutil.cc.s
 .PHONY : util/testutil.cc.s
 
 # Help Target
@@ -3507,16 +3526,17 @@ help:
 	@echo "... autocompact_test"
 	@echo "... coding_test"
 	@echo "... no_destructor_test"
-	@echo "... version_set_test"
-	@echo "... issue320_test"
 	@echo "... status_test"
+	@echo "... version_set_test"
+	@echo "... leveldb"
+	@echo "... ttemplate"
+	@echo "... issue320_test"
 	@echo "... fault_injection_test"
-	@echo "... main_test"
 	@echo "... c_test"
 	@echo "... install/local"
 	@echo "... crc32c_test"
 	@echo "... leveldbutil"
-	@echo "... leveldb"
+	@echo "... main_test"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest_main"
@@ -3701,9 +3721,9 @@ help:
 	@echo "... test/class/TClass.o"
 	@echo "... test/class/TClass.i"
 	@echo "... test/class/TClass.s"
-	@echo "... test/class/TTemplate.o"
-	@echo "... test/class/TTemplate.i"
-	@echo "... test/class/TTemplate.s"
+	@echo "... test/class/ttemplate.o"
+	@echo "... test/class/ttemplate.i"
+	@echo "... test/class/ttemplate.s"
 	@echo "... test/main_log.o"
 	@echo "... test/main_log.i"
 	@echo "... test/main_log.s"

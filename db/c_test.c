@@ -65,8 +65,7 @@ static void CheckGet(
     Free(&val);
 }
 
-static void CheckIter(leveldb_iterator_t *iter,
-                      const char *key, const char *val) {
+static void CheckIter(leveldb_iterator_t *iter, const char *key, const char *val) {
     size_t len;
     const char *str;
     str = leveldb_iter_key(iter, &len);

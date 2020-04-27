@@ -1,3 +1,4 @@
+#include <climits>
 //
 // Created by torment on 2020/4/23.
 //
@@ -23,8 +24,12 @@ namespace crequest {
 
         request *get_request() override;
 
+        template<typename D>
+        void set_success_listener(std::function<void(D)> &listener);
+
     private:
-        request *r; //
+        request *r = nullptr;
+
     };
 }
 

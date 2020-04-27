@@ -37,7 +37,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/leveldb.dir/test/assets/assets.cpp.o"
   "CMakeFiles/leveldb.dir/test/assets/coefficient.cpp.o"
   "CMakeFiles/leveldb.dir/test/class/TClass.cpp.o"
-  "CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o"
+  "CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o"
   "CMakeFiles/leveldb.dir/test/main_log.cc.o"
   "CMakeFiles/leveldb.dir/test/main_test.cc.o"
   "CMakeFiles/leveldb.dir/test/main_test_data.cc.o"

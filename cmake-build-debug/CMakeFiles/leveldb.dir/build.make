@@ -330,18 +330,18 @@ CMakeFiles/leveldb.dir/test/request/task_axios_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/test/request/task_axios_impl.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/torment/Workspace/CLionProjects/leveldb/test/request/task_axios_impl.cpp -o CMakeFiles/leveldb.dir/test/request/task_axios_impl.cpp.s
 
-CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o: CMakeFiles/leveldb.dir/flags.make
-CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o: ../test/class/TTemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o -c /Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.cpp
+CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o: CMakeFiles/leveldb.dir/flags.make
+CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o: ../test/class/ttemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o -c /Users/torment/Workspace/CLionProjects/leveldb/test/class/ttemplate.cpp
 
-CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.cpp > CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.i
+CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/torment/Workspace/CLionProjects/leveldb/test/class/ttemplate.cpp > CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.i
 
-CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.cpp -o CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.s
+CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/torment/Workspace/CLionProjects/leveldb/test/class/ttemplate.cpp -o CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.s
 
 CMakeFiles/leveldb.dir/test/request/task_queue_serial.cpp.o: CMakeFiles/leveldb.dir/flags.make
 CMakeFiles/leveldb.dir/test/request/task_queue_serial.cpp.o: ../test/request/task_queue_serial.cpp
@@ -912,7 +912,7 @@ leveldb_OBJECTS = \
 "CMakeFiles/leveldb.dir/test/request/task_queue.cpp.o" \
 "CMakeFiles/leveldb.dir/test/request/task.cpp.o" \
 "CMakeFiles/leveldb.dir/test/request/task_axios_impl.cpp.o" \
-"CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o" \
+"CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o" \
 "CMakeFiles/leveldb.dir/test/request/task_queue_serial.cpp.o" \
 "CMakeFiles/leveldb.dir/test/request/config.cpp.o" \
 "CMakeFiles/leveldb.dir/test/request/default_config.cpp.o" \
@@ -980,7 +980,7 @@ libleveldb.a: CMakeFiles/leveldb.dir/test/request/request_queue.cpp.o
 libleveldb.a: CMakeFiles/leveldb.dir/test/request/task_queue.cpp.o
 libleveldb.a: CMakeFiles/leveldb.dir/test/request/task.cpp.o
 libleveldb.a: CMakeFiles/leveldb.dir/test/request/task_axios_impl.cpp.o
-libleveldb.a: CMakeFiles/leveldb.dir/test/class/TTemplate.cpp.o
+libleveldb.a: CMakeFiles/leveldb.dir/test/class/ttemplate.cpp.o
 libleveldb.a: CMakeFiles/leveldb.dir/test/request/task_queue_serial.cpp.o
 libleveldb.a: CMakeFiles/leveldb.dir/test/request/config.cpp.o
 libleveldb.a: CMakeFiles/leveldb.dir/test/request/default_config.cpp.o

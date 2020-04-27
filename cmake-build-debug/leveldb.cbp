@@ -1643,6 +1643,64 @@
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="status_test">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/status_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 status_test"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="status_test/fast">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/status_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 status_test/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="version_set_test">
 				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/version_set_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
@@ -1696,6 +1754,116 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 version_set_test/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldb">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/libleveldb.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 leveldb"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldb/fast">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/libleveldb.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 leveldb/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ttemplate">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/ttemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 ttemplate"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ttemplate/fast">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/ttemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 ttemplate/fast"/>
 					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1759,64 +1927,6 @@
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="status_test">
-				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/status_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 status_test"/>
-					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="status_test/fast">
-				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/status_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 status_test/fast"/>
-					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="fault_injection_test">
 				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/fault_injection_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
@@ -1870,64 +1980,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 fault_injection_test/fast"/>
-					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_test">
-				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/main_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_test"/>
-					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_test/fast">
-				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/main_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
-					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_test/fast"/>
 					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2107,18 +2159,21 @@
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="leveldb">
-				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/libleveldb.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="main_test">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/main_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
 					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
 					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -2127,24 +2182,27 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 leveldb"/>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_test"/>
 					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="leveldb/fast">
-				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/libleveldb.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="main_test/fast">
+				<Option output="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/main_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/include"/>
 					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/."/>
 					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/torment/Workspace/CLionProjects/leveldb/third_party/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -2153,7 +2211,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 leveldb/fast"/>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_test/fast"/>
 					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/torment/Workspace/CLionProjects/leveldb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2402,14 +2460,15 @@
 			<Option target="autocompact_test"/>
 			<Option target="coding_test"/>
 			<Option target="no_destructor_test"/>
-			<Option target="version_set_test"/>
-			<Option target="issue320_test"/>
 			<Option target="status_test"/>
+			<Option target="version_set_test"/>
+			<Option target="leveldb"/>
+			<Option target="ttemplate"/>
+			<Option target="issue320_test"/>
 			<Option target="fault_injection_test"/>
-			<Option target="main_test"/>
 			<Option target="c_test"/>
 			<Option target="crc32c_test"/>
-			<Option target="leveldb"/>
+			<Option target="main_test"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/db/autocompact_test.cc">
 			<Option target="autocompact_test"/>
@@ -2748,10 +2807,11 @@
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/TClass.h">
 			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.cpp">
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/ttemplate.cpp">
 			<Option target="leveldb"/>
+			<Option target="ttemplate"/>
 		</Unit>
-		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.h">
+		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/class/ttemplate.h">
 			<Option target="leveldb"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/main_log.cc">
@@ -2761,8 +2821,8 @@
 			<Option target="leveldb"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/main_test.cc">
-			<Option target="main_test"/>
 			<Option target="leveldb"/>
+			<Option target="main_test"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/test/main_test_data.cc">
 			<Option target="leveldb"/>
@@ -2974,13 +3034,14 @@
 			<Option target="autocompact_test"/>
 			<Option target="coding_test"/>
 			<Option target="no_destructor_test"/>
-			<Option target="version_set_test"/>
-			<Option target="issue320_test"/>
 			<Option target="status_test"/>
+			<Option target="version_set_test"/>
+			<Option target="ttemplate"/>
+			<Option target="issue320_test"/>
 			<Option target="fault_injection_test"/>
-			<Option target="main_test"/>
 			<Option target="c_test"/>
 			<Option target="crc32c_test"/>
+			<Option target="main_test"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/util/testutil.h">
 			<Option target="db_bench"/>
@@ -3010,13 +3071,14 @@
 			<Option target="autocompact_test"/>
 			<Option target="coding_test"/>
 			<Option target="no_destructor_test"/>
-			<Option target="version_set_test"/>
-			<Option target="issue320_test"/>
 			<Option target="status_test"/>
+			<Option target="version_set_test"/>
+			<Option target="ttemplate"/>
+			<Option target="issue320_test"/>
 			<Option target="fault_injection_test"/>
-			<Option target="main_test"/>
 			<Option target="c_test"/>
 			<Option target="crc32c_test"/>
+			<Option target="main_test"/>
 		</Unit>
 		<Unit filename="/Users/torment/Workspace/CLionProjects/leveldb/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

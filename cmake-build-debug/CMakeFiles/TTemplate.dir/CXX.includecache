@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.cpp
+TTemplate.h
+/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.h
+
+/Users/torment/Workspace/CLionProjects/leveldb/test/class/TTemplate.h
+iostream
+-
+
